@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-[1100px] mx-auto px-6">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs font-sans text-ocean-nav-link">
-            2025 Uma Avadhanula. All rights reserved.
+            2026 Uma Avadhanula. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">
