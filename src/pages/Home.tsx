@@ -26,7 +26,7 @@ export default function Home() {
               </h1>
 
               <p className="text-base text-ocean-text leading-relaxed mb-8">
-                Senior L&D professional with 15+ years designing learning experiences that actually stick.
+                Transforming complex ideas into captivating learning experiences.
               </p>
 
               <div className="flex flex-wrap gap-3">

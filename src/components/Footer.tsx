@@ -10,7 +10,7 @@ export default function Footer() {
               Uma Avadhanula
             </h3>
             <p className="text-[13px] font-sans text-ocean-nav-link">
-              Transforming complex ideas into captivating learning experiences.
+              eLearning Consultant and Instructional Design Strategist
             </p>
           </div>
 
