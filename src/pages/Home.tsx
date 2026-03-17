@@ -26,7 +26,7 @@ export default function Home() {
               </h1>
 
               <p className="text-base text-ocean-text leading-relaxed mb-8">
-                18 years. 300+ projects. Clients worldwide.
+                18 years. &nbsp;&nbsp;·&nbsp;&nbsp; 300+ projects. &nbsp;&nbsp;·&nbsp;&nbsp; Clients worldwide.
               </p>
 
               <div className="flex flex-wrap gap-3">
