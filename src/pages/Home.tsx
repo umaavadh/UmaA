@@ -90,7 +90,7 @@ export default function Home() {
               Real problems, real solutions, measurable outcomes.
             </p>
             <span className="inline-block bg-ocean-tag-bg text-ocean-tag-text rounded-full px-3 py-1.5 text-[11px] font-sans font-medium">
-              3 featured projects
+              4 featured projects
             </span>
           </div>
 
