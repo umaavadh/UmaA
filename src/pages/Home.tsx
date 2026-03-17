@@ -99,7 +99,7 @@ export default function Home() {
               Experience
             </p>
             <h3 className="font-display text-lg text-navy-dark mb-3">
-              15+ Years
+              18+ Years
             </h3>
             <p className="text-sm text-ocean-text mb-4 leading-relaxed">
               Across healthcare, education, and biopharma sectors.
