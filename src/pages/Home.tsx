@@ -18,7 +18,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12 lg:gap-20">
             <div className="flex-1 max-w-[520px] order-2 md:order-1">
               <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
-                Learning & Development
+                Learning Design Strategist
               </p>
 
               <h1 className="font-display text-[42px] lg:text-[56px] text-navy-dark leading-[1.15] mb-6">
