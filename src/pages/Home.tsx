@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <div className="bg-ocean-bg">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-20 lg:py-32">
-          <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-12 lg:gap-20">
+          <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12 lg:gap-20">
             <div className="flex-1 max-w-[520px] order-2 md:order-1">
               <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
                 Learning & Development
@@ -51,7 +51,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex items-start justify-center md:justify-end order-1 md:order-2">
+            <div className="flex items-center justify-center md:justify-end order-1 md:order-2">
               <div className="w-[200px] h-[200px] md:w-[240px] md:h-[240px] lg:w-[340px] lg:h-[340px] rounded-full bg-navy-dark flex items-center justify-center flex-shrink-0">
                 <p className="text-sm font-sans font-medium text-white opacity-60">
                   Photo ID
