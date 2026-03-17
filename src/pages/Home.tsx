@@ -22,7 +22,7 @@ export default function Home() {
               </p>
 
               <h1 className="font-display text-[42px] lg:text-[56px] text-navy-dark leading-[1.15] mb-6">
-                Turning <span className="italic text-ocean-primary">complexity</span><br />into clarity
+                Transforming <span className="italic text-ocean-primary">complex ideas</span><br />into captivating learning experiences.
               </h1>
 
               <p className="text-base text-ocean-text leading-relaxed mb-8">
