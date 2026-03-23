@@ -52,7 +52,7 @@ export default function Home() {
             </div>
 
             <div className="flex items-center justify-center md:justify-end order-1 md:order-2">
-              <div className="w-[200px] h-[200px] md:w-[240px] md:h-[240px] lg:w-[300px] lg:h-[300px] rounded-full overflow-hidden flex-shrink-0 shadow-lg">
+              <div className="w-[280px] h-[280px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden flex-shrink-0 shadow-lg">
                 <img
                   src="/images/Profile_pic.png"
                   alt="Onah Osegale"
