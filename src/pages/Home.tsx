@@ -52,10 +52,12 @@ export default function Home() {
             </div>
 
             <div className="flex items-center justify-center md:justify-end order-1 md:order-2">
-              <div className="w-[200px] h-[200px] md:w-[240px] md:h-[240px] lg:w-[340px] lg:h-[340px] rounded-full bg-navy-dark flex items-center justify-center flex-shrink-0">
-                <p className="text-sm font-sans font-medium text-white opacity-60">
-                  Photo ID
-                </p>
+              <div className="w-[200px] h-[200px] md:w-[240px] md:h-[240px] lg:w-[300px] lg:h-[300px] rounded-full overflow-hidden flex-shrink-0 shadow-lg">
+                <img
+                  src="/images/Profile_pic.png"
+                  alt="Onah Osegale"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
