@@ -31,19 +31,19 @@ export default function Home() {
 
               <div className="flex flex-wrap gap-3">
                 <button
-                  onClick={() => openCertificate('/pmp_certificate.png', 'PMP Certificate')}
+                  onClick={() => openCertificate('/images/pmp_certificate.png', 'PMP Certificate')}
                   className="bg-ocean-tag-bg text-ocean-tag-text border border-ocean-button-border rounded-full px-4 py-1.5 text-[13px] font-sans font-medium hover:bg-ocean-primary hover:text-white hover:border-ocean-primary transition-colors"
                 >
                   PMP
                 </button>
                 <button
-                  onClick={() => openCertificate('/cptd_certificate.png', 'CPTD Certificate')}
+                  onClick={() => openCertificate('/images/cptd__certificate.png', 'CPTD Certificate')}
                   className="bg-ocean-tag-bg text-ocean-tag-text border border-ocean-button-border rounded-full px-4 py-1.5 text-[13px] font-sans font-medium hover:bg-ocean-primary hover:text-white hover:border-ocean-primary transition-colors"
                 >
                   CPTD
                 </button>
                 <button
-                  onClick={() => openCertificate('/ai_fellow_certificate.png', 'AI Generalist Fellow Certificate')}
+                  onClick={() => openCertificate('/images/Outskill_Certificate.png', 'AI Generalist Fellow Certificate')}
                   className="bg-ocean-tag-bg text-ocean-tag-text border border-ocean-button-border rounded-full px-4 py-1.5 text-[13px] font-sans font-medium hover:bg-ocean-primary hover:text-white hover:border-ocean-primary transition-colors"
                 >
                   AI Generalist Fellow
