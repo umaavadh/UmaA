@@ -104,7 +104,7 @@ export default function Home() {
               18+ Years
             </h3>
             <p className="text-sm text-ocean-text mb-4 leading-relaxed">
-              Across healthcare, education, and biopharma sectors.
+              Across government, education, finance, and manufacturing sectors.
             </p>
             <span className="inline-block bg-ocean-tag-bg text-ocean-tag-text rounded-full px-3 py-1.5 text-[11px] font-sans font-medium">
               Senior Specialist
