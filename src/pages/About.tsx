@@ -119,7 +119,7 @@ export default function About() {
                     onClick={() => openCertificate('/images/cptd__certificate.png', 'CPTD Certificate')}
                     className="w-full bg-ocean-tag-bg text-ocean-tag-text border border-ocean-button-border rounded-full px-4 py-2 text-[13px] font-sans font-medium hover:bg-ocean-primary hover:text-white hover:border-ocean-primary transition-colors text-left"
                   >
-                    CPTD
+                    Certified Professional in Talent Development (CPTD)
                   </button>
                   <button
                     onClick={() => openCertificate('/images/Outskill_Certificate.png', 'AI Generalist Fellow Certificate')}
