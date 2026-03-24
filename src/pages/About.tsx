@@ -125,7 +125,7 @@ export default function About() {
                     onClick={() => openCertificate('/images/Outskill_Certificate.png', 'AI Generalist Fellow Certificate')}
                     className="w-full bg-ocean-tag-bg text-ocean-tag-text border border-ocean-button-border rounded-full px-4 py-2 text-[13px] font-sans font-medium hover:bg-ocean-primary hover:text-white hover:border-ocean-primary transition-colors text-left"
                   >
-                    AI Generalist Fellow
+                    AI Generalist Fellow (AIGF)
                   </button>
                 </div>
 
