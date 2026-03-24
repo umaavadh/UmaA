@@ -75,16 +75,20 @@ export default function About() {
 
   return (
     <>
-      <div className="bg-white py-20">
-        <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
+      <div className="bg-ocean-bg">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-20">
           <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
             About Me
           </p>
 
-          <p className="text-lg text-ocean-text leading-relaxed mb-16 max-w-[800px]">
+          <p className="text-lg text-ocean-text leading-relaxed mb-0 max-w-[800px]">
             As a learning design strategist, I believe that exceptional learning reshapes thinking, behavior, and outcomes.
           </p>
+        </div>
+      </div>
 
+      <div className="bg-white py-20">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-20">
             <div className="lg:col-span-2">
               <div className="text-base text-ocean-text leading-relaxed space-y-6">
