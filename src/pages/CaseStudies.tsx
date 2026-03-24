@@ -37,17 +37,22 @@ export default function CaseStudies() {
   ];
 
   return (
-    <div className="bg-white py-20">
-      <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
-        <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
-          Client Work
-        </p>
+    <>
+      <div className="bg-ocean-bg">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-20">
+          <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
+            Client Work
+          </p>
 
-        <p className="text-lg text-ocean-text leading-relaxed mb-16 max-w-[800px]">
-          Four real-world projects spanning community development, manufacturing, public health, and global capacity building. Each one tells a different story about what thoughtful instructional design can achieve.
-        </p>
+          <p className="text-lg text-ocean-text leading-relaxed mb-0 max-w-[800px]">
+            Four real-world projects spanning community development, manufacturing, public health, and global capacity building. Each one tells a different story about what thoughtful instructional design can achieve.
+          </p>
+        </div>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="bg-white py-20">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {caseStudies.map((study, index) => (
             <Link
               key={index}
@@ -75,8 +80,9 @@ export default function CaseStudies() {
               </p>
             </Link>
           ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

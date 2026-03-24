@@ -70,17 +70,22 @@ export default function Experience() {
   ];
 
   return (
-    <div className="bg-white py-20">
-      <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
-        <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
-          Career Journey
-        </p>
+    <>
+      <div className="bg-ocean-bg">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-20">
+          <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
+            Career Journey
+          </p>
 
-        <p className="text-lg text-ocean-text leading-relaxed mb-16 max-w-[800px]">
-          From information systems and project management to instructional design and AI, every role has shaped the way I think about learning.
-        </p>
+          <p className="text-lg text-ocean-text leading-relaxed mb-0 max-w-[800px]">
+            From information systems and project management to instructional design and AI, every role has shaped the way I think about learning.
+          </p>
+        </div>
+      </div>
 
-        <div className="space-y-12">
+      <div className="bg-white py-20">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
+          <div className="space-y-12">
           {experiences.map((exp, index) => (
             <div key={index} className="flex flex-col md:flex-row gap-6 md:gap-8">
               {/* Timeline */}
@@ -140,8 +145,9 @@ export default function Experience() {
               </div>
             </div>
           ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
