@@ -73,12 +73,9 @@ export default function Home() {
             <h3 className="font-display text-lg text-navy-dark mb-3">
               Instructional Design
             </h3>
-            <p className="text-sm text-ocean-text mb-4 leading-relaxed">
+            <p className="text-sm text-ocean-text leading-relaxed">
               Crafting learning journeys from discovery to mastery.
             </p>
-            <span className="inline-block bg-ocean-tag-bg text-ocean-tag-text rounded-full px-3 py-1.5 text-[11px] font-sans font-medium">
-              eLearning  Facilitation
-            </span>
           </div>
 
           <div>
@@ -88,12 +85,9 @@ export default function Home() {
             <h3 className="font-display text-lg text-navy-dark mb-3">
               Case Studies
             </h3>
-            <p className="text-sm text-ocean-text mb-4 leading-relaxed">
+            <p className="text-sm text-ocean-text leading-relaxed">
               Real problems, real solutions, measurable outcomes.
             </p>
-            <span className="inline-block bg-ocean-tag-bg text-ocean-tag-text rounded-full px-3 py-1.5 text-[11px] font-sans font-medium">
-              4 featured projects
-            </span>
           </div>
 
           <div>
@@ -103,12 +97,9 @@ export default function Home() {
             <h3 className="font-display text-lg text-navy-dark mb-3">
               18+ Years
             </h3>
-            <p className="text-sm text-ocean-text mb-4 leading-relaxed">
+            <p className="text-sm text-ocean-text leading-relaxed">
               Across government, education, finance, and manufacturing sectors.
             </p>
-            <span className="inline-block bg-ocean-tag-bg text-ocean-tag-text rounded-full px-3 py-1.5 text-[11px] font-sans font-medium">
-              Senior Specialist
-            </span>
           </div>
         </div>
       </div>
