@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <div className="bg-ocean-bg">
-        <div className="max-w-[600px] mx-auto px-6 py-20 text-center">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-20 text-center">
           <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
             Get in Touch
           </p>
