@@ -60,34 +60,34 @@ export default function Portfolio() {
   return (
     <>
       <div className="bg-ocean-bg">
-        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-20">
-          <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 lg:py-20">
+          <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-4 sm:mb-6">
             Work Samples
           </p>
 
-          <p className="text-lg text-ocean-text leading-relaxed mb-0 max-w-[800px]">
+          <p className="text-base sm:text-lg text-ocean-text leading-relaxed mb-0 max-w-[800px]">
             A selection of work samples spanning instructional design and AI-powered product development.
           </p>
         </div>
       </div>
 
-      <div className="bg-white py-20">
-        <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
-          <div className="space-y-4">
-            <div className="mb-8">
-              <h2 className="font-display text-2xl text-navy-dark mb-2">L&D AI-powered Automation</h2>
+      <div className="bg-white py-12 sm:py-16 lg:py-20">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-12">
+          <div className="space-y-6">
+            <div className="mb-6 sm:mb-8">
+              <h2 className="font-display text-xl sm:text-2xl lg:text-3xl text-navy-dark mb-2">L&D AI-powered Automation</h2>
             </div>
 
-            <div className="border border-ocean-border rounded-lg overflow-hidden">
+            <div className="border border-ocean-border rounded-lg overflow-hidden shadow-sm">
               <button
                 onClick={() => toggleItem(portfolioItems[0].id)}
-                className="w-full flex items-center justify-between p-6 bg-navy-dark hover:bg-opacity-95 transition-all"
+                className="w-full flex items-center justify-between p-4 sm:p-6 bg-ocean-primary hover:bg-opacity-90 transition-all"
               >
-                <h3 className="font-display text-xl text-left" style={{ color: '#E0EEF6' }}>
+                <h3 className="font-display text-lg sm:text-xl lg:text-2xl text-left pr-4" style={{ color: '#E0EEF6' }}>
                   {portfolioItems[0].title}
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 transition-transform flex-shrink-0 ml-4`}
+                  className={`w-5 h-5 sm:w-6 sm:h-6 transition-transform flex-shrink-0`}
                   style={{
                     color: '#E0EEF6',
                     transform: openItem === portfolioItems[0].id ? 'rotate(180deg)' : 'rotate(0deg)'
@@ -96,14 +96,14 @@ export default function Portfolio() {
               </button>
 
               {openItem === portfolioItems[0].id && (
-                <div className="p-6 bg-white border-t border-ocean-border">
-                  <p className="text-[15px] leading-relaxed mb-6" style={{ color: '#7AACCC' }}>
+                <div className="p-4 sm:p-6 bg-white border-t border-ocean-border">
+                  <p className="text-sm sm:text-[15px] leading-relaxed mb-6" style={{ color: '#7AACCC' }}>
                     {portfolioItems[0].description}
                   </p>
 
-                  <div className="flex flex-wrap items-center gap-4">
+                  <div className="flex flex-wrap items-center gap-3 sm:gap-4">
                     <span
-                      className="inline-block px-4 py-1.5 text-xs font-medium border rounded-full"
+                      className="inline-block px-3 sm:px-4 py-1.5 text-xs font-medium border rounded-full"
                       style={{
                         backgroundColor: portfolioItems[0].badge.bgColor,
                         color: portfolioItems[0].badge.textColor,
@@ -117,7 +117,7 @@ export default function Portfolio() {
                       href={portfolioItems[0].cta.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-6 py-2 bg-ocean-primary text-white rounded-full text-sm font-medium hover:bg-opacity-90 transition-colors"
+                      className="inline-flex items-center gap-2 px-5 sm:px-6 py-2 bg-ocean-primary text-white rounded-full text-sm font-medium hover:bg-opacity-90 transition-colors"
                     >
                       {portfolioItems[0].cta.text}
                       <ExternalLink className="w-4 h-4" />
@@ -127,20 +127,20 @@ export default function Portfolio() {
               )}
             </div>
 
-            <div className="mt-12 mb-8">
-              <h2 className="font-display text-2xl text-navy-dark mb-2">Featured Project: AI MVP</h2>
+            <div className="mt-10 sm:mt-12 mb-6 sm:mb-8">
+              <h2 className="font-display text-xl sm:text-2xl lg:text-3xl text-navy-dark mb-2">Featured Project: AI MVP</h2>
             </div>
 
-            <div className="border border-ocean-border rounded-lg overflow-hidden">
+            <div className="border border-ocean-border rounded-lg overflow-hidden shadow-sm">
               <button
                 onClick={() => toggleItem(portfolioItems[1].id)}
-                className="w-full flex items-center justify-between p-6 bg-navy-dark hover:bg-opacity-95 transition-all"
+                className="w-full flex items-center justify-between p-4 sm:p-6 bg-ocean-primary hover:bg-opacity-90 transition-all"
               >
-                <h3 className="font-display text-xl text-left" style={{ color: '#E0EEF6' }}>
+                <h3 className="font-display text-lg sm:text-xl lg:text-2xl text-left pr-4" style={{ color: '#E0EEF6' }}>
                   {portfolioItems[1].title}
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 transition-transform flex-shrink-0 ml-4`}
+                  className={`w-5 h-5 sm:w-6 sm:h-6 transition-transform flex-shrink-0`}
                   style={{
                     color: '#E0EEF6',
                     transform: openItem === portfolioItems[1].id ? 'rotate(180deg)' : 'rotate(0deg)'
@@ -149,14 +149,14 @@ export default function Portfolio() {
               </button>
 
               {openItem === portfolioItems[1].id && (
-                <div className="p-6 bg-white border-t border-ocean-border">
-                  <p className="text-[15px] leading-relaxed mb-6" style={{ color: '#7AACCC' }}>
+                <div className="p-4 sm:p-6 bg-white border-t border-ocean-border">
+                  <p className="text-sm sm:text-[15px] leading-relaxed mb-6" style={{ color: '#7AACCC' }}>
                     {portfolioItems[1].description}
                   </p>
 
-                  <div className="flex flex-wrap items-center gap-4">
+                  <div className="flex flex-wrap items-center gap-3 sm:gap-4">
                     <span
-                      className="inline-block px-4 py-1.5 text-xs font-medium border rounded-full"
+                      className="inline-block px-3 sm:px-4 py-1.5 text-xs font-medium border rounded-full"
                       style={{
                         backgroundColor: portfolioItems[1].badge.bgColor,
                         color: portfolioItems[1].badge.textColor,
@@ -170,7 +170,7 @@ export default function Portfolio() {
                       href={portfolioItems[1].cta.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-6 py-2 bg-ocean-primary text-white rounded-full text-sm font-medium hover:bg-opacity-90 transition-colors"
+                      className="inline-flex items-center gap-2 px-5 sm:px-6 py-2 bg-ocean-primary text-white rounded-full text-sm font-medium hover:bg-opacity-90 transition-colors"
                     >
                       {portfolioItems[1].cta.text}
                       <ExternalLink className="w-4 h-4" />
