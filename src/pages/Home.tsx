@@ -25,9 +25,20 @@ export default function Home() {
                 Transforming <span className="italic text-ocean-primary">complex ideas</span><br />into captivating learning experiences.
               </h1>
 
-              <p className="text-base text-ocean-text leading-relaxed mb-8">
-                18 years. &nbsp;&nbsp;·&nbsp;&nbsp; 300+ projects. &nbsp;&nbsp;·&nbsp;&nbsp; Clients worldwide.
-              </p>
+              <ul className="text-base text-ocean-text leading-relaxed mb-8 space-y-2 list-none">
+                <li className="flex items-center gap-2.5">
+                  <span className="w-2 h-2 rounded-full bg-ocean-primary flex-shrink-0 inline-block"></span>
+                  18 years
+                </li>
+                <li className="flex items-center gap-2.5">
+                  <span className="w-2 h-2 rounded-full bg-ocean-primary flex-shrink-0 inline-block"></span>
+                  300+ projects
+                </li>
+                <li className="flex items-center gap-2.5">
+                  <span className="w-2 h-2 rounded-full bg-ocean-primary flex-shrink-0 inline-block"></span>
+                  Clients worldwide
+                </li>
+              </ul>
 
               <div className="flex flex-wrap gap-3">
                 <button
