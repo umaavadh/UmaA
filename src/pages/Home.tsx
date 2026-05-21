@@ -65,9 +65,9 @@ export default function Home() {
             <div className="flex items-center justify-center md:justify-end order-1 md:order-2">
               <div className="w-[280px] h-[280px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden flex-shrink-0 shadow-lg">
                 <img
-                  src="/images/Profile_pic.png"
+                  src="/images/Profile_pic copy.png"
                   alt="Onah Osegale"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
             </div>
