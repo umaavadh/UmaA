@@ -67,7 +67,7 @@ export default function Home() {
                 <img
                   src="/images/Profile_pic.png"
                   alt="Onah Osegale"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
             </div>
