@@ -71,13 +71,13 @@ export default function Experience() {
 
   return (
     <>
-      <div className="bg-ocean-bg">
-        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-20">
+      <div className="bg-ocean-bg flex flex-col justify-center min-h-[180px] md:min-h-[220px]">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 py-10">
           <p className="text-[11px] font-sans font-medium uppercase tracking-[2px] text-ocean-primary mb-6">
             Career Journey
           </p>
 
-          <p className="text-lg text-ocean-text leading-relaxed mb-0 max-w-[800px]">
+          <p className="font-display text-[26px] md:text-[34px] leading-[1.4] mb-0 max-w-[800px] border-l-4 border-[#1A7AAF] pl-6" style={{ color: '#0D2B40', fontWeight: 'normal' }}>
             From information systems and project management to instructional design and AI, every role has shaped the way I think about learning.
           </p>
         </div>
