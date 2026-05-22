@@ -1,4 +1,5 @@
 import { Linkedin, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -19,13 +20,13 @@ export default function Footer() {
             >
               <Linkedin size={20} />
             </a>
-            <a
-              href="mailto:uma.avadh@gmail.com"
+            <Link
+              to="/contact"
               className="text-ocean-nav-link hover:text-ocean-nav-hover transition-colors"
               aria-label="Email"
             >
               <Mail size={20} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
