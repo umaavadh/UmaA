@@ -77,7 +77,7 @@ export default function Experience() {
             Career Journey
           </p>
 
-          <p className="font-display text-[26px] md:text-[34px] leading-[1.4] mb-0 max-w-[800px] border-l-4 border-[#1A7AAF] pl-6" style={{ color: '#0D2B40', fontWeight: 'normal' }}>
+          <p className="font-display text-[18px] md:text-[22px] leading-[1.4] mb-0 max-w-[800px] border-l-4 border-[#1A7AAF] pl-5" style={{ color: '#4A6A80', fontWeight: 'normal' }}>
             From information systems and project management to instructional design and AI, every role has shaped the way I think about learning.
           </p>
         </div>
