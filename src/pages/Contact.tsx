@@ -74,6 +74,7 @@ export default function Contact() {
 
               <form
                 data-netlify="true"
+                data-netlify-honeypot="bot-field"
                 name="contact"
                 method="POST"
                 onSubmit={handleSubmit}
