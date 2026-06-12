@@ -57,7 +57,7 @@ const sections: Section[] = [
     heading: 'Rise 360 Course Demo',
     item: {
       id: 'id-showcase',
-      title: 'Blended Learning Programme for Sales Enablement',
+      title: 'AI Readiness for Every Professional',
       description: 'Developed a comprehensive blended learning programme for a global sales team across three regions. The solution combined self-paced e-learning modules, live virtual workshops, and on-the-job performance support tools. Rapid prototyping in Articulate Rise allowed for iterative stakeholder feedback before full build, reducing revision cycles by 40%. Post-launch data showed a 28% improvement in product knowledge assessment scores within 60 days.',
       badge: {
         text: 'Articulate Rise · Zoom · SharePoint',
