@@ -72,7 +72,7 @@ const sections: Section[] = [
     heading: 'Learning Strategy & Consulting',
     item: {
       id: 'learning-strategy',
-      title: 'Organisational Learning Needs Analysis — Financial Services',
+      title: 'Interactive Microlearning Module',
       description: 'Led a full-cycle learning needs analysis engagement for a mid-sized financial services firm undergoing digital transformation. Conducted stakeholder interviews, focus groups, and skills gap assessments across five business units. Delivered a prioritised learning roadmap aligned to strategic business objectives, including recommendations for capability-building in data literacy, change agility, and regulatory compliance. The roadmap directly informed a 12-month L&D investment plan.',
       badge: {
         text: 'Needs Analysis · Learning Strategy · Stakeholder Consulting',
