@@ -58,7 +58,7 @@ const sections: Section[] = [
     item: {
       id: 'id-showcase',
       title: 'AI Readiness for Every Professional',
-      description: 'Developed a comprehensive blended learning programme for a global sales team across three regions. The solution combined self-paced e-learning modules, live virtual workshops, and on-the-job performance support tools. Rapid prototyping in Articulate Rise allowed for iterative stakeholder feedback before full build, reducing revision cycles by 40%. Post-launch data showed a 28% improvement in product knowledge assessment scores within 60 days.',
+      description: 'An interactive Rise 360 e-learning course featuring Storyline-embedded slides, multi-block interactivity, and a live Gemini API-powered assessment that generates a personalised, downloadable AI adoption plan from each learner\'s real workplace inputs.',
       badge: {
         text: 'Articulate Rise · Zoom · SharePoint',
         bgColor: 'rgba(26, 122, 175, 0.2)',
