@@ -73,7 +73,7 @@ const sections: Section[] = [
     item: {
       id: 'learning-strategy',
       title: 'The Courage to Speak Up',
-      description: 'Led a full-cycle learning needs analysis engagement for a mid-sized financial services firm undergoing digital transformation. Conducted stakeholder interviews, focus groups, and skills gap assessments across five business units. Delivered a prioritised learning roadmap aligned to strategic business objectives, including recommendations for capability-building in data literacy, change agility, and regulatory compliance. The roadmap directly informed a 12-month L&D investment plan.',
+      description: 'A five minute interactive micro-learning module explores psychological safety in the workplace. Designed for a global corporate audience, the module builds understanding through a research-backed concept overview, click-to-reveal interactions, and immersive branching scenarios where learners experience the real consequences of speaking up versus staying silent.',
       badge: {
         text: 'Needs Analysis · Learning Strategy · Stakeholder Consulting',
         bgColor: 'rgba(212, 168, 75, 0.2)',
