@@ -42,7 +42,7 @@ const sections: Section[] = [
     heading: 'Featured Project: AI MVP',
     item: {
       id: 'scope-secure',
-      title: 'Scope Secure — AI-Powered Escrow Platform',
+      title: 'SecureServe — AI-Powered Escrow Platform',
       description: 'An intelligent escrow platform that helps organizations and freelancers establish trusted partnerships. AI generates collaborative work scope checklists and verifies final deliverables against the agreed scope, minimizing disputes and triggering time-based resolution when needed.',
       badge: {
         text: 'First Prize Winner — AI Generalist Fellowship 2025',
