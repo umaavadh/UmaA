@@ -60,7 +60,7 @@ const sections: Section[] = [
       title: 'AI Readiness for Every Professional',
       description: 'An interactive Rise 360 e-learning course featuring Storyline-embedded slides, multi-block interactivity, and a live Gemini API-powered assessment that generates a personalised, downloadable AI adoption plan from each learner\'s real workplace inputs.',
       badge: {
-        text: 'Articulate Rise · Zoom · SharePoint',
+        text: 'Articulate Rise 360 · Articulate Storyline · Gemini API',
         bgColor: 'rgba(26, 122, 175, 0.2)',
         textColor: '#7AACCC',
         borderColor: '#7AACCC',
