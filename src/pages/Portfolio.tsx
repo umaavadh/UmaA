@@ -65,7 +65,7 @@ const sections: Section[] = [
         textColor: '#7AACCC',
         borderColor: '#7AACCC',
       },
-      cta: { text: 'Click Here to View', url: '#' },
+      cta: { text: 'Click Here to View', url: 'https://360.articulate.com/review/content/2b8aa5fe-b87f-4f59-9de2-a65c5b56c5a9/review' },
     },
   },
   {
