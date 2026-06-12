@@ -69,7 +69,7 @@ const sections: Section[] = [
     },
   },
   {
-    heading: 'Learning Strategy & Consulting',
+    heading: 'Interactive Microlearning Module',
     item: {
       id: 'learning-strategy',
       title: 'Interactive Microlearning Module',
