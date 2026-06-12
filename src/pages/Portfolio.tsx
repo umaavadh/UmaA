@@ -80,7 +80,7 @@ const sections: Section[] = [
         textColor: '#D4A84B',
         borderColor: '#D4A84B',
       },
-      cta: { text: 'Click Here to Read', url: '#' },
+      cta: { text: 'Click Here to Read', url: 'https://temp.xyz.com' },
     },
   },
 ];
