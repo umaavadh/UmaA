@@ -54,7 +54,7 @@ const sections: Section[] = [
     },
   },
   {
-    heading: 'Instructional Design Showcase',
+    heading: 'Rise 360 Course Demo',
     item: {
       id: 'id-showcase',
       title: 'Blended Learning Programme for Sales Enablement',
