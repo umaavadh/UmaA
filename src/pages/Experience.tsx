@@ -27,7 +27,7 @@ export default function Experience() {
       intro: "At CNK Management, I led the end-to-end design and development of corporate blended learning programs, working across a diverse client portfolio spanning IT, telecom, banking, insurance, financial services, manufacturing, and accredited academic institutions. This role sharpened my ability to translate raw content and business needs into structured, pedagogically sound learning experiences at scale.",
       highlights: [
         "Created 150+ learning products serving targeted audiences ranging from 500 to 60,000 learners per deployment",
-        "Applied Bloom's Taxonomy and Robert Mager's performance-based learning principles to set clear, measurable learning objectives across every project",
+        "Applied established instructional design frameworks including Bloom's Taxonomy, Gagné's Nine Events, Keller's ARCS model, 4MAT, and Kirkpatrick's Four Levels of Evaluation to design, deliver, and evaluate measurable learning experiences across every project.",
         "Coached and mentored junior instructional designers, building team capability in storyboarding, eLearning production, and SCORM-compliant module delivery using Articulate, Captivate, Flash, and HTML and XML"
       ]
     },
