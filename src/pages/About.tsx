@@ -144,7 +144,7 @@ export default function About() {
           </div>
 
           <div>
-            <h2 className="font-display text-[36px] text-navy-dark mb-10">
+            <h2 className="font-display text-[28px] text-navy-dark mb-10">
               Areas of Expertise
             </h2>
 
