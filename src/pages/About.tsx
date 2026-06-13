@@ -26,7 +26,7 @@ export default function About() {
         "Bloom's Taxonomy",
         "Gagne's Nine Events",
         'Kirkpatrick Model',
-        'Action Mapping',
+        'Microlearning',
         '70:20:10 Framework',
         'Experiential Learning (Kolb)',
         'Scenario-Based Learning',
