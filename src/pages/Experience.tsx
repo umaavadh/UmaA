@@ -63,7 +63,7 @@ export default function Experience() {
       intro: "My career began in information systems, where I was responsible for maintaining data infrastructure, managing security and availability of systems, and creating user documentation.",
       highlights: [
         "Authored user manuals for custom-developed client-server application software, an early form of performance support and documentation design",
-        "Managed centralized SQL report generation across all departments, developing strong analytical and data management capabilities",
+        "Managed centralized SQL report generation across all departments",
         "Maintained and updated Standard Operating Procedures and knowledge assets, building habits of precision and documentation that carry through to every project today"
       ]
     }
