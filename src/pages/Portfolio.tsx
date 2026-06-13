@@ -154,7 +154,7 @@ export default function Portfolio() {
           <div className="space-y-6">
             {sections.map((section, index) => (
               <div key={section.item.id}>
-                <div className={`${index > 0 ? 'mt-10 sm:mt-12' : ''} mb-6 sm:mb-8`}>
+                <div className={`${index > 0 ? 'mt-8 sm:mt-10' : ''} mb-3 sm:mb-4`}>
                   <h2 className="font-display text-lg sm:text-xl lg:text-2xl text-navy-dark mb-2">
                     {section.heading}
                   </h2>
