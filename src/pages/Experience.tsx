@@ -36,7 +36,7 @@ export default function Experience() {
       company: "Apex CoVantage",
       period: "December 2005 – May 2006",
       location: "Hyderabad, India",
-      intro: "In this role I provided structured content solutions for a leading US-based online B2B portal, developing a sharp eye for clarity, accuracy, and audience-appropriate communication that would later become foundational to my instructional design practice.",
+      intro: "In this role I provided structured content solutions for a leading US-based online B2B portal.",
       highlights: [
         "Created online business profiles and product and service descriptions for a large-scale digital content platform",
         "Published abstracts for industrial press releases covering new product launches, developing concise and precise writing skills",
