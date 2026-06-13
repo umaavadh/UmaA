@@ -10,64 +10,6 @@ export default function About() {
     setModalOpen(true);
   };
 
-  const expertiseClusters = [
-    {
-      title: 'Instructional Design',
-      tags: [
-        'Needs Assessment',
-        'Learner Analysis',
-        'Storyboarding',
-        'Content Curation',
-        'Learning and Performance-Based Objective setting',
-        'ADDIE',
-        'SAM',
-        'Agile Learning Design',
-        "Bloom's Taxonomy",
-        "Gagne's Nine Events",
-        'Kirkpatrick Model',
-        'Microlearning',
-        "Keller's ARCS Model",
-        'Experiential Learning (Kolb)',
-        'Scenario-Based Learning',
-        '4-MAT Model',
-        'Gamification'
-      ]
-    },
-    {
-      title: 'eLearning Development',
-      tags: [
-        'Articulate Rise',
-        'Articulate Storyline',
-        'Adobe Captivate',
-        'SCORM Compliance',
-        'Job-aids',
-        'content localization',
-        'Interactive PDFs'
-      ]
-    },
-    {
-      title: 'Project and Program Management',
-      tags: [
-        'End-to-End Project Delivery',
-        'Stakeholder Management',
-        'SME Collaboration',
-        'Quality Assurance',
-        'Evaluation and Assessment Design',
-        'Formative and Summative Evaluation',
-        'Cross-Functional Team Coordination'
-      ]
-    },
-    {
-      title: 'AI and Emerging Tech',
-      tags: [
-        'AI Integration in Learning',
-        'Prompt Engineering for L&D',
-        'Functional Prototyping',
-        'Generative AI for Content Design',
-        'Automation Agents'
-      ]
-    }
-  ];
 
   return (
     <>
@@ -143,31 +85,6 @@ export default function About() {
             </div>
           </div>
 
-          <div>
-            <h2 className="font-display text-[28px] text-navy-dark mb-10">
-              Areas of Expertise
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {expertiseClusters.map((cluster, index) => (
-                <div key={index} className="bg-white border border-[#CCDEEa] rounded-xl p-7">
-                  <h3 className="font-display text-xl text-navy-dark mb-5">
-                    {cluster.title}
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {cluster.tags.map((tag, tagIndex) => (
-                      <span
-                        key={tagIndex}
-                        className="inline-block bg-[#D8EEF6] text-[#0D5A8A] rounded-full px-3 py-1 text-[11px] font-sans font-medium"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
 
