@@ -73,7 +73,7 @@ const sections: Section[] = [
     item: {
       id: 'learning-strategy',
       title: 'The Courage to Speak Up',
-      description: 'A five minute interactive micro-learning module explores psychological safety in the workplace. Designed for a global corporate audience, the module builds understanding through a research-backed concept overview, click-to-reveal interactions, and immersive branching scenarios where learners experience the real consequences of speaking up versus staying silent.',
+      description: 'A six minute interactive micro-learning module explores psychological safety in the workplace. Designed for a global corporate audience, the module builds understanding through a research-backed concept overview, click-to-reveal interactions, and immersive branching scenarios where learners experience the real consequences of speaking up versus staying silent.',
       badge: {
         text: 'Built with Articulate Storyline 360 · Hosted on GitHub Pages',
         bgColor: 'rgba(212, 168, 75, 0.2)',
