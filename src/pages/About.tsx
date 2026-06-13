@@ -93,7 +93,7 @@ export default function About() {
             <div className="lg:col-span-2">
               <div className="text-base text-ocean-text leading-relaxed space-y-6">
                 <p>
-                  With 18+ years of experience and dual certifications in project management (PMP) and talent development (CPTD), I've built over 300 self-paced learning solutions for clients spanning government agencies, healthcare, banking, life sciences, IT, insurance, manufacturing, academic institutions, and research organizations. My work starts long before a single slide is built, with needs analysis, learner research, and strategic design, and ends when measurable outcomes are confirmed.
+                  With 18+ years of experience and dual certifications in project management (PMP) and talent development (CPTD), I've built over 300 self-paced learning solutions for clients spanning government agencies, healthcare, banking, life sciences, IT, insurance, manufacturing, academic institutions, and research organizations. My work starts with needs analysis, learner research, and strategic design, and ends when measurable outcomes are confirmed.
                 </p>
 
                 <p>
