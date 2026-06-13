@@ -18,7 +18,6 @@ export default function About() {
         'Learner Analysis',
         'Storyboarding',
         'Content Curation',
-        'Practice Design',
         'Learning and Performance-Based Objective setting',
         'ADDIE',
         'SAM',
