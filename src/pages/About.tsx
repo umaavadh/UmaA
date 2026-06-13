@@ -29,7 +29,6 @@ export default function About() {
         'Action Mapping',
         '70:20:10 Framework',
         'Experiential Learning (Kolb)',
-        'Microlearning',
         'Scenario-Based Learning',
         '4-MAT Model',
         'Gamification'
