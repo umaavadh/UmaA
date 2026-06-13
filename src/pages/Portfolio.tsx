@@ -90,7 +90,7 @@ function AccordionCard({ item, isOpen, onToggle }: { item: AccordionItem; isOpen
     <div className="border border-ocean-border rounded-lg overflow-hidden shadow-sm">
       <button
         onClick={onToggle}
-        className="w-full flex items-center justify-between p-4 sm:p-6 bg-ocean-primary hover:bg-opacity-90 transition-all"
+        className="w-full flex items-center justify-between p-3 sm:p-4 bg-ocean-primary hover:bg-opacity-90 transition-all"
       >
         <h3 className="font-display text-base sm:text-lg lg:text-xl text-left pr-4" style={{ color: '#E0EEF6' }}>
           {item.title}
