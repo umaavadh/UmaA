@@ -63,7 +63,7 @@ export default function CaseStudies() {
                 {study.label}
               </span>
 
-              <h2 className="font-display text-2xl text-navy-dark mb-2 group-hover:text-ocean-primary transition-colors">
+              <h2 className="font-display text-xl text-navy-dark mb-2 group-hover:text-ocean-primary transition-colors">
                 {study.title}
               </h2>
 
