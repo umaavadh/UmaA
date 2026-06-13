@@ -92,7 +92,7 @@ function AccordionCard({ item, isOpen, onToggle }: { item: AccordionItem; isOpen
         onClick={onToggle}
         className="w-full flex items-center justify-between p-4 sm:p-6 bg-ocean-primary hover:bg-opacity-90 transition-all"
       >
-        <h3 className="font-display text-lg sm:text-xl lg:text-2xl text-left pr-4" style={{ color: '#E0EEF6' }}>
+        <h3 className="font-display text-base sm:text-lg lg:text-xl text-left pr-4" style={{ color: '#E0EEF6' }}>
           {item.title}
         </h3>
         <ChevronDown
