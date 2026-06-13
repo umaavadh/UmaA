@@ -25,7 +25,6 @@ export default function About() {
         'Agile Learning Design',
         "Bloom's Taxonomy",
         "Gagne's Nine Events",
-        "Merrill's Principles of Instruction",
         'Kirkpatrick Model',
         'Action Mapping',
         '70:20:10 Framework',
