@@ -60,7 +60,7 @@ export default function Experience() {
       company: "CEC Pvt Ltd",
       period: "August 1993 – April 2000",
       location: "Chennai, India",
-      intro: "My career began in information systems, where I was responsible for maintaining data infrastructure, managing security and availability of systems, and creating user documentation. This technical foundation later proved invaluable in understanding the architecture behind eLearning platforms and LMS environments.",
+      intro: "My career began in information systems, where I was responsible for maintaining data infrastructure, managing security and availability of systems, and creating user documentation.",
       highlights: [
         "Authored user manuals for custom-developed client-server application software, an early form of performance support and documentation design",
         "Managed centralized SQL report generation across all departments, developing strong analytical and data management capabilities",
