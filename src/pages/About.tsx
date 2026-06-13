@@ -32,7 +32,7 @@ export default function About() {
         'Experiential Learning (Kolb)',
         'Microlearning',
         'Scenario-Based Learning',
-        'Spaced Repetition',
+        '4-MAT Model',
         'Gamification'
       ]
     },
