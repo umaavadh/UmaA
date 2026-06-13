@@ -41,7 +41,8 @@ export default function About() {
         'Adobe Captivate',
         'SCORM Compliance',
         'Job-aids',
-        'content localization'
+        'content localization',
+        'Interactive PDFs'
       ]
     },
     {
