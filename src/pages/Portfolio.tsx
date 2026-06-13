@@ -155,7 +155,7 @@ export default function Portfolio() {
             {sections.map((section, index) => (
               <div key={section.item.id}>
                 <div className={`${index > 0 ? 'mt-10 sm:mt-12' : ''} mb-6 sm:mb-8`}>
-                  <h2 className="font-display text-xl sm:text-2xl lg:text-3xl text-navy-dark mb-2">
+                  <h2 className="font-display text-lg sm:text-xl lg:text-2xl text-navy-dark mb-2">
                     {section.heading}
                   </h2>
                 </div>
