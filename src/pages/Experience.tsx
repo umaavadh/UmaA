@@ -64,7 +64,7 @@ export default function Experience() {
       highlights: [
         "Authored user manuals for custom-developed client-server application software, an early form of performance support and documentation design",
         "Managed centralized SQL report generation across all departments",
-        "Maintained and updated Standard Operating Procedures and knowledge assets, building habits of precision and documentation that carry through to every project today"
+        "Maintained and updated Standard Operating Procedures and knowledge assets"
       ]
     }
   ];
