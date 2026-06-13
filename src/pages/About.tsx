@@ -28,7 +28,6 @@ export default function About() {
         'Kirkpatrick Model',
         'Action Mapping',
         '70:20:10 Framework',
-        'Universal Design for Learning',
         'Experiential Learning (Kolb)',
         'Microlearning',
         'Scenario-Based Learning',
