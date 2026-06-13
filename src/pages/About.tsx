@@ -30,7 +30,6 @@ export default function About() {
         '70:20:10 Framework',
         'Universal Design for Learning',
         'Experiential Learning (Kolb)',
-        'Constructivism',
         'Microlearning',
         'Scenario-Based Learning',
         'Spaced Repetition',
