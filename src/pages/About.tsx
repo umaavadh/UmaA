@@ -26,7 +26,7 @@ export default function About() {
         "Gagne's Nine Events",
         'Kirkpatrick Model',
         'Microlearning',
-        '70:20:10 Framework',
+        "Keller's ARCS Model",
         'Experiential Learning (Kolb)',
         'Scenario-Based Learning',
         '4-MAT Model',
